@@ -217,8 +217,8 @@ body {
 }
 
 .bouncing-favicon {
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
     object-fit: contain;
     animation: softBounce 2s ease-in-out infinite;
 }
@@ -290,7 +290,8 @@ body {
     }
     
     .text-section {
-        text-align: left;
+        text-align: center;
+        min-width: 300px;
     }
     
     .typing-text {
@@ -303,6 +304,11 @@ body {
     
     .blurb {
         font-size: 14px;
+    }
+    
+    .bouncing-favicon {
+        width: 100px;
+        height: 100px;
     }
     
     .about-container {
