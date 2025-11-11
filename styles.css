@@ -208,6 +208,30 @@ body {
     display: block;
 }
 
+/* Bouncing Favicon */
+.favicon-container {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+}
+
+.bouncing-favicon {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+    animation: softBounce 2s ease-in-out infinite;
+}
+
+@keyframes softBounce {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
 /* Popup Section */
 .popup-section {
     flex-shrink: 0;
